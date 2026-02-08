@@ -68,7 +68,7 @@ https://blood-donor-web-app.netlify.app/search
 
 ### 🧾 Clone the repository
 ```bash
-git clone https://github.com/Pavitra672/Blood-Donor-system.git
+git clone https://github.com/spoorthi-keerthi/Blood-Donor-system.git
 
 ## Demo
 
