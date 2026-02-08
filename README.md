@@ -72,4 +72,4 @@ git clone https://github.com/spoorthi-keerthi/Blood-Donor-system.git
 
 ## Demo
 
-https://blood-donor-web-app.netlify.app/search
+https://blood-donor-web-app.netlify.app/
