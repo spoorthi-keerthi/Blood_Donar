@@ -1,0 +1,122 @@
+body {
+    background-color: #f4f6f9;
+    background-image:url("blood.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Hero layout */
+.hero-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 90vh;
+    padding-right: 80px;
+    position: relative;
+}
+
+/* Left hands image */
+.hero-image {
+    position: absolute;
+    left: 0;
+    top: 56px;
+    bottom: 0;
+    width: 50%;
+    background: url("hands.jpg") no-repeat center;
+    background-size: cover;
+}
+
+/* Form container */
+.form-wrapper {
+    width: 500px;
+    z-index: 2;
+}
+
+/* Cards */
+.card {
+    border-radius: 12px;
+    
+   
+}
+
+/* Donor result card */
+.donor-card {
+    background: white;
+    padding: 15px;
+    border-left: 5px solid red;
+    margin-bottom: 10px;
+}
+
+/* Mobile */
+@media (max-width: 992px) {
+    .hero-section {
+        justify-content: center;
+        padding: 20px;
+    }
+    .hero-image {
+        display: none;
+    }
+}
+
+/* ================= SEARCH DONOR PAGE ================= */
+
+.search-hero {
+    position: relative;
+    min-height: 90vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 80px;
+    background: #f8f9fa;
+}
+
+/* Left background image */
+.search-image {
+    position: absolute;
+    left: 0;
+    top: 56px;              /* below navbar */
+    bottom: 0;
+    width: 50%;
+    background-image: url("thankyoudonorImage.webp");  /* 👈 IMAGE HERE */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Find donor card */
+.search-card {
+    width: 540px;
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.18);
+    z-index: 2;
+}
+
+/* Result card */
+#result .donor-card {
+    background: #fff5f6;
+    border-left: 5px solid #dc3545;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+/* Mobile view */
+@media (max-width: 992px) {
+    .search-hero {
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .search-image {
+        display: none;
+    }
+
+    .search-card {
+        width: 100%;
+        max-width: 420px;
+    }
+}
