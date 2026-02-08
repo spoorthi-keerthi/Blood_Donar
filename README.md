@@ -62,7 +62,7 @@ Blood-Donor-system/
 
 ## Demo
 
-https://blood-donor-web-app.netlify.app/search
+https://blood-donor-web-app.netlify.app/
 
    
 
